@@ -9,6 +9,7 @@ int invert(int x, int p, int n);
 int main() {
     int x = invert(127, 0, 5);
     printf("%d\n", x);
+    return 0;
 }
 
 int invert(int x, int p, int n) {

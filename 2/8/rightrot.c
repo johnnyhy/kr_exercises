@@ -9,6 +9,7 @@ unsigned int rightrot(unsigned int x, int n);
 int main() {
     int x = rightrot(8, 1);
     printf("%d\n", x);
+    return 0;
 }
 
 unsigned int rightrot(unsigned int x, int n) {
